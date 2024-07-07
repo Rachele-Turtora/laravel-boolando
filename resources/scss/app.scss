@@ -2,24 +2,34 @@
 
 ul {
     list-style-type: none;
+    padding: 0;
 }
 
 img {
     width: 100%;
 }
 
-header {
+header,
+footer {
     height: 100px;
-    background-color: orange;
     color: white;
+}
+
+header {
+    background-color: orange;
     font-weight: 600;
+}
+
+footer {
+    background-color: black;
 }
 
 .img-container {
     width: 200px;
 }
 
-header li {
+header li,
+footer li {
     display: inline;
     margin: 0 5px;
 }

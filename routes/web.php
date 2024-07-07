@@ -15,8 +15,24 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
 
+    $menu = [
+        [
+            'title' => 'Uomo',
+            'link' => '#'
+        ],
+        [
+            'title' => 'Donna',
+            'link' => '#'
+        ],
+        [
+            'title' => 'Bambino',
+            'link' => '#'
+        ]
+    ];
+
     $data = [
-        'products' => config('products')
+        'products' => config('products'),
+        'menu' => $menu
     ];
 
     return view('welcome', $data);

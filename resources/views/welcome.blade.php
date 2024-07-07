@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
 @section('main')
-il contenuto di homepage
+<ul>
+    @foreach($products as $product)
+    <li>@include('shared.product')</li>
+    @endforeach
+</ul>
 @endsection
