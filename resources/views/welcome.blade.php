@@ -1,9 +1,11 @@
 @extends('layouts.app')
 
 @section('main')
-<ul>
+<ul class="d-flex flex-wrap">
     @foreach($products as $product)
-    <li>@include('shared.product')</li>
+    <li class="col-4">
+        <div class="mx-3 my-4">@include('shared.product')</div>
+    </li>
     @endforeach
 </ul>
 @endsection
