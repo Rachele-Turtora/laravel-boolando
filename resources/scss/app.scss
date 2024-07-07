@@ -1,5 +1,25 @@
 @import "~bootstrap/scss/bootstrap";
 
-body {
-    background-color: yellow;
+ul {
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    height: 100px;
+    background-color: orange;
+    color: white;
+    font-weight: 600;
+}
+
+.img-container {
+    width: 200px;
+}
+
+header li {
+    display: inline;
+    margin: 0 5px;
 }
