@@ -12,11 +12,11 @@
             <div class="col-3">
                 <p class="fw-semibold my-3 fs-5">Trovaci anche su</p>
                 <ul>
-                    <li>Icon</li>
-                    <li>Icon</li>
-                    <li>Icon</li>
-                    <li>Icon</li>
-                    <li>Icon</li>
+                    <li><i class="fa-brands fa-square-twitter"></i></li>
+                    <li><i class="fa-brands fa-square-facebook"></i></li>
+                    <li><i class="fa-brands fa-square-instagram"></i></li>
+                    <li><i class="fa-brands fa-square-pinterest"></i></li>
+                    <li><i class="fa-brands fa-youtube"></i></li>
                 </ul>
             </div>
         </div>

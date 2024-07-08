@@ -15,9 +15,9 @@
             </div>
             <div class="col-4 d-flex justify-content-end">
                 <ul>
-                    <li>icon</li>
-                    <li>icon</li>
-                    <li>icon</li>
+                    <li><i class="fa-solid fa-user"></i></li>
+                    <li><i class="fa-regular fa-heart"></i></li>
+                    <li><i class="fa-solid fa-bag-shopping"></i></li>
                 </ul>
             </div>
         </div>
